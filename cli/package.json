@@ -1,0 +1,17 @@
+{
+  "name": "avaguard-cli",
+  "version": "0.1.0",
+  "description": "Generate Foundry invariant test stubs from a contract ABI",
+  "bin": {
+    "avaguard": "./src/cli.js"
+  },
+  "main": "./src/generator.js",
+  "scripts": {
+    "test": "node --test src/tests/*.test.js"
+  },
+  "keywords": ["avalanche", "foundry", "invariant", "security", "circuit-breaker"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
