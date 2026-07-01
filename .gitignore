@@ -3,7 +3,6 @@ contracts/out/
 contracts/cache/
 contracts/broadcast/
 contracts/.gas-snapshot
-contracts/lib/
 # Node
 node_modules/
 agent/node_modules/

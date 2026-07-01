@@ -2,15 +2,31 @@
   "name": "avaguard-cli",
   "version": "0.1.0",
   "description": "Generate Foundry invariant test stubs from a contract ABI",
-  "bin": {
-    "avaguard": "./src/cli.js"
+  "keywords": [
+    "avalanche",
+    "foundry",
+    "invariant",
+    "security",
+    "circuit-breaker"
+  ],
+  "homepage": "https://github.com/soloking1412/avaguard-avax#readme",
+  "bugs": {
+    "url": "https://github.com/soloking1412/avaguard-avax/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soloking1412/avaguard-avax.git"
+  },
+  "license": "MIT",
+  "author": "soloking",
+  "type": "commonjs",
   "main": "./src/generator.js",
+  "bin": {
+    "avaguard": "src/cli.js"
+  },
   "scripts": {
     "test": "node --test src/tests/*.test.js"
   },
-  "keywords": ["avalanche", "foundry", "invariant", "security", "circuit-breaker"],
-  "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
   }
